@@ -77,6 +77,11 @@ menu li
 	margin-right: 30px;
 }
 
+
+
+
+										/* Titre + slider */
+
 .titre
 {
 	margin-top: 100px;
@@ -122,4 +127,141 @@ h1
 	border-radius: 10px;
 	height: 6px;
 	display: block;
+}
+
+									/* Présentation */
+
+.presentation
+{
+	display: flex;
+	justify-content: space-between;
+	color: #012955;
+}
+
+.presentation img
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 5px #012955 solid;
+	position: relative;
+	margin: auto;
+	margin-left: 50px;
+	z-index: 2;
+}
+
+#about
+{
+	background: #0bd2d6;
+	padding: 20px;
+	color: #012955;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+#skills
+{
+	background: #012955;
+}
+
+#about h2
+{
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	width: 50%;
+	background-color: white;
+	color: black;
+	border: 6px #012955 solid;
+	border-radius: 30px;
+	padding: 10px;
+	justify-content: center;
+	position: relative;
+	z-index: 2;
+}
+
+.barre1
+{
+	width: 600px;
+	height: 6px;
+	background-color: #012955;
+	position: relative;
+	left: -1px;
+	margin: auto;
+	z-index: 1;
+}
+
+.textAbout
+{
+	margin: auto;
+	width: 80%;
+	border: 6px #012955 solid;
+	border-radius: 30px;
+	padding: 40px;
+	margin-left: -200px;
+	background-color: white;
+	position: relative;
+	z-index: 2;
+	margin-right: 5%;
+	font-style: italic;
+	text-align: justify;
+	font-size: 1.1em;
+	color: black;
+}
+
+.titrePresentation h2 em
+{
+	font-size: 0.8em;
+	margin-right: 20px;
+	margin-top: 7px;
+}
+
+.titrePresentation
+{
+	justify-content: center;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.boule
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #012955;
+}
+
+.trait1
+{
+	width: 100px;
+	height: 5px;
+	background-color: #012955;
+	margin-top: 7px;
+	margin-left: -1px;
+}
+
+.trait2
+{
+	width: 100px;
+	height: 5px;
+	background-color: #012955;
+	margin-top: 7px;
+	margin-right: -1px;
+}
+
+.designG
+{
+	position: absolute;
+	top: 75px;
+	left: 20%;
+	margin-left: -49px;
+}
+
+.designD
+{
+	position: absolute;
+	top: 75px;
+	right: 20%;
+	margin-right: -50px;
 }
