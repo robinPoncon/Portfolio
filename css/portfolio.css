@@ -32,7 +32,7 @@ html
 
 .fas.fa-laptop
 {
-	color: #0bd2d6;
+	color: #0ee6f2;
 	font-size: 4em;
 }
 
@@ -44,6 +44,7 @@ menu
 	margin-top: -100px;
 	width: 100%;
 	background: linear-gradient(to right, #0ee6f2 15%, #012955 40%);
+	border-bottom: 5px white solid;
 	z-index: 100;
 	padding-bottom: 15px;
 }
@@ -103,8 +104,8 @@ menu li
 	width: 400px;
 	height: 400px;
 	border-radius: 200px;
-	border-top: 10px #0bd2d6 solid;
-	border-bottom: 10px #0bd2d6 solid;
+	border-top: 10px #0ee6f2 solid;
+	border-bottom: 10px #0ee6f2 solid;
 	background-color: #012955;
 	color: white;
 	z-index: 2;
@@ -119,7 +120,7 @@ h1
 
 .tiretCenter
 {
-	background-color: #0bd2d6;
+	background-color: #0ee6f2;
 	width: 50%;
 	margin: auto;
 	margin-top: 30px;
@@ -135,7 +136,7 @@ h1
 {
 	display: flex;
 	justify-content: space-between;
-	color: #012955;
+	color: #0ee6f2;
 }
 
 .presentation img
@@ -143,7 +144,7 @@ h1
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
-	border: 5px #012955 solid;
+	border: 5px #0ee6f2 solid;
 	position: relative;
 	margin: auto;
 	margin-left: 50px;
@@ -152,19 +153,133 @@ h1
 
 #about
 {
-	background: #0bd2d6;
+	background: #012955;
 	padding: 20px;
-	color: #012955;
 	padding-bottom: 100px;
 	padding-top: 50px;
 }
 
-#skills
+#about h2
 {
-	background: #012955;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	width: 50%;
+	background-color: white;
+	color: black;
+	border: 6px #0ee6f2 solid;
+	border-radius: 30px;
+	padding: 10px;
+	justify-content: center;
+	position: relative;
+	z-index: 2;
 }
 
-#about h2
+.barre1
+{
+	width: 600px;
+	height: 6px;
+	background-color: #0ee6f2;
+	position: relative;
+	left: -1px;
+	margin: auto;
+	z-index: 1;
+}
+
+.textAbout
+{
+	margin: auto;
+	width: 80%;
+	border: 6px #0ee6f2 solid;
+	border-radius: 30px;
+	padding: 40px;
+	margin-left: -200px;
+	background-color: white;
+	position: relative;
+	z-index: 2;
+	margin-right: 5%;
+	font-style: italic;
+	text-align: justify;
+	font-size: 1.1em;
+	color: black;
+}
+
+
+.textAbout a:hover
+{
+	color: #0ee6f2;
+	text-decoration: none;
+}
+
+.titreChapitre h2 em
+{
+	font-size: 0.8em;
+	margin-right: 20px;
+	margin-top: 7px;
+}
+
+.titreChapitre
+{
+	justify-content: center;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.boule
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #0ee6f2;
+}
+
+.trait1
+{
+	width: 100px;
+	height: 5px;
+	background-color: #0ee6f2;
+	margin-top: 7px;
+	margin-left: -1px;
+}
+
+.trait2
+{
+	width: 100px;
+	height: 5px;
+	background-color: #0ee6f2;
+	margin-top: 7px;
+	margin-right: -1px;
+}
+
+.designG
+{
+	position: absolute;
+	top: 75px;
+	left: 20%;
+	margin-left: -49px;
+}
+
+.designD
+{
+	position: absolute;
+	top: 75px;
+	right: 20%;
+	margin-right: -50px;
+}
+
+
+										/* Compétences */
+
+#skills
+{
+	background: #0ee6f2;
+	padding: 20px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+#skills h2
 {
 	text-align: center;
 	margin: auto;
@@ -181,50 +296,7 @@ h1
 	z-index: 2;
 }
 
-.barre1
-{
-	width: 600px;
-	height: 6px;
-	background-color: #012955;
-	position: relative;
-	left: -1px;
-	margin: auto;
-	z-index: 1;
-}
-
-.textAbout
-{
-	margin: auto;
-	width: 80%;
-	border: 6px #012955 solid;
-	border-radius: 30px;
-	padding: 40px;
-	margin-left: -200px;
-	background-color: white;
-	position: relative;
-	z-index: 2;
-	margin-right: 5%;
-	font-style: italic;
-	text-align: justify;
-	font-size: 1.1em;
-	color: black;
-}
-
-.titrePresentation h2 em
-{
-	font-size: 0.8em;
-	margin-right: 20px;
-	margin-top: 7px;
-}
-
-.titrePresentation
-{
-	justify-content: center;
-	position: relative;
-	padding-bottom: 30px;
-}
-
-.boule
+.boule2
 {
 	width: 20px;
 	height: 20px;
@@ -232,7 +304,7 @@ h1
 	background-color: #012955;
 }
 
-.trait1
+.trait3
 {
 	width: 100px;
 	height: 5px;
@@ -241,7 +313,7 @@ h1
 	margin-left: -1px;
 }
 
-.trait2
+.trait4
 {
 	width: 100px;
 	height: 5px;
@@ -264,4 +336,122 @@ h1
 	top: 75px;
 	right: 20%;
 	margin-right: -50px;
+}
+
+.savoirs
+{
+	justify-content: space-around;
+}
+
+.savoirs h3
+{
+	text-align: center;
+	padding: 10px;
+	background-color: #012955;
+	color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.savoirs ul
+{
+	padding: 30px;
+	text-align: justify;
+}
+
+.savoirs ul li
+{
+	list-style-type: none;
+}
+
+.savoirF, .savoirE
+{
+	background-color: white;
+	border: 6px #012955 solid;
+	color: black;
+	border-radius: 30px;
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+.savoirF
+{
+	margin-left: 50px;
+	width: 70%;
+}
+
+.savoirE
+{
+	margin-right: 5%;
+	width: 30%;
+	margin-left: -1px;
+}
+
+.fas.fa-keyboard
+{
+	font-size: 1em;
+	margin-top: 4px;
+}
+
+.barre2
+{
+	width: 300px;
+	height: 6px;
+	background-color: #012955;
+	position: relative;
+	left: -1px;
+	margin: auto;
+	z-index: 1;
+}
+
+										/* Langages */
+
+.langages
+{
+	margin-top: 50px;
+	position: relative;
+}
+
+.cercle
+{
+	width: 110px;
+	height: 110px;
+	border: 10px #012955 solid;
+	border-radius: 55px;
+	position: relative;
+	z-index: 10;
+}
+
+.percent
+{
+	font-weight: bold;
+	top: 43px;
+	margin-left: 37px;
+	display: block;
+	color: #012955;
+	position: absolute;
+	z-index: 12;
+}
+
+.test
+{
+	top: 6px;
+	margin-left: 6px;
+	width: 25px;
+	height: 25px;
+	background-color: #0ee6f2;
+	position: absolute;
+	z-index: 11;
+	transform: rotate(27deg);
+}
+
+.test2
+{
+	top: 0;
+	margin-left: 26px;
+	width: 26px;
+	height: 25px;
+	background-color: #0ee6f2;
+	position: absolute;
+	z-index: 11;
 }
