@@ -412,8 +412,24 @@ h1
 	position: relative;
 }
 
+.partie1
+{
+	justify-content: space-around;
+}
+
+.blocLangage h3
+{
+	margin-top: 15px;
+	text-align: center;
+	background-color: #012955;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
 .cercle
 {
+	margin-left: 1px;
 	width: 110px;
 	height: 110px;
 	border: 10px #012955 solid;
@@ -426,26 +442,26 @@ h1
 {
 	font-weight: bold;
 	top: 43px;
-	margin-left: 37px;
+	margin-left: 39px;
 	display: block;
 	color: #012955;
 	position: absolute;
 	z-index: 12;
 }
 
-.test
+.masque
 {
-	top: 6px;
+	top: -2px;
 	margin-left: 6px;
 	width: 25px;
 	height: 25px;
 	background-color: #0ee6f2;
 	position: absolute;
 	z-index: 11;
-	transform: rotate(27deg);
+	transform: rotate(33deg);
 }
 
-.test2
+.masque2
 {
 	top: 0;
 	margin-left: 26px;
@@ -454,4 +470,119 @@ h1
 	background-color: #0ee6f2;
 	position: absolute;
 	z-index: 11;
+}
+
+#css .masque
+{
+	top: 17px;
+	transform: rotate(24deg);
+}
+
+#css .masque2
+{
+	margin-left: 16px;
+	width: 36px;
+}
+
+#javascript .cercle
+{
+	margin-left: 34px;
+}
+
+#javascript .masque
+{
+	top: 39px;
+	margin-left: 13px;
+	width: 50px;
+	height: 55px;
+	transform: rotate(132deg);
+}
+
+#javascript .masque2
+{
+	width: 59px;
+	height: 43px;
+}
+
+#javascript .percent
+{
+	margin-left: 71px;
+}
+
+#jquery .masque
+{
+	top: 28px;
+	margin-left: -39px;
+	width: 50px;
+	height: 55px;
+	transform: rotate(151deg);
+}
+
+#jquery .masque2
+{
+	width: 59px;
+	height: 49px;
+	margin-left: -7px;
+}
+
+.contour
+{
+	width: 50%;
+	border: 5px #012955 solid;
+	height: 40px;
+	border-radius: 10px;
+	position: relative;
+	background-color: #012955;
+}
+
+.partie2
+{
+	margin-top: 50px;
+	justify-content: center;
+}
+
+.partie2 h3
+{
+	background-color: #012955;
+	color: white;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+
+.percentColor
+{
+	width: 0%;
+	background: repeating-linear-gradient(
+			45deg,
+			#606dbc,
+			#606dbc 10px,
+			#465298 10px,
+			#465298 20px);
+	height: 30px;
+}
+
+.partie2:hover .percentColor
+{
+	width: 60%;
+	transition: 2s;
+}
+
+.pourcentage
+{
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top: 4px;
+	margin-left: 50%;
+}
+
+.barre3
+{
+	background-color: #012955;
+	height: 6px;
+	width: 50px;
+	margin-top: 17px;
 }
