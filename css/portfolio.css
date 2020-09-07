@@ -15,9 +15,13 @@ html
 
 									/* Menu de navigation et logo */
 
-.logoRP
+.logoRP img
 {
 	position: relative;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	top: 8px;
 }
 
 .title-logo
@@ -693,46 +697,78 @@ h1
 	justify-content: space-around;
 }
 
-.projet3, .projet4, .projet5
+.projet1, .projet2, .projet3, .projet4, .projet5
 {
 	width: 50%;
 	text-align: center;
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
-.cache3
+.cache1, .cache2, .cache3, .cache4, .cache5
 {
 	width: 400px;
 	height: 250px;
 	margin: auto;
 }
 
-.bandeau3, .bandeau4, .bandeau5
+.blocTexte1, .blocTexte2, .blocTexte3, .blocTexte4, .blocTexte5
 {
 	position: absolute;
-	background-color: black;
-	opacity: 0.6;
-	left: 50%;
-	margin-left: -195px;
 	width: 390px;
 	height: 240px;
-	top: 5px;
 	border-radius: 13px;
-	display: none;
-	z-index: 2;
-}
-
-.blocTexte3, .blocTexte4, .blocTexte5
-{
-	position: absolute;
-	width: 390px;
 	color: white;
 	left: 50%;
 	margin-left: -195px;
-	top: 65px;
+	top: 5px;
 	font-weight: bold;
 	display: none;
+	z-index: 3;
+	padding: 10px;
+	background-color: rgba(1, 41, 85, 0.9);
+}
+
+.blocTexte1 p:nth-child(1), .blocTexte2 p:nth-child(1), .blocTexte3 p:nth-child(1), .blocTexte4 p:nth-child(1), .blocTexte5 p:nth-child(1)
+{
+	margin-top: 30px;
+}
+
+.blocTexte1 p:nth-child(2), .blocTexte2 p:nth-child(2), .blocTexte3 p:nth-child(2), .blocTexte4 p:nth-child(2), .blocTexte5 p:nth-child(2)
+{
+	margin-top: 30px;
+}
+
+.blocTexte1 a, .blocTexte2 a, .blocTexte3 a, .blocTexte4 a, .blocTexte5 a
+{
+	color: #0ee6f2;
+	margin-top: 30px;
+	display: block;
+}
+
+.blocTexte1 a:hover, .blocTexte2 a:hover, .blocTexte3 a:hover, .blocTexte4 a:hover, .blocTexte5 a:hover
+{
+	color: #0ee6f2;
+	text-decoration: none;
+	border-bottom: 3px #0ee6f2 solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-bottom: 10px;
+	transition: 0.5s;
+	width: 125px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.cache1, .cache2, .cache3, .cache4, .cache5
+{
+	box-shadow: 5px 5px 5px black;
+	border-radius: 20px;
+}
+
+.cache1:hover .blocTexte1, .cache2:hover .blocTexte2, .cache3:hover .blocTexte3, .cache4:hover .blocTexte4, .cache5:hover .blocTexte5
+{
+	display: block;
 }
 
 

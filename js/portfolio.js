@@ -34,11 +34,3 @@ function remplissage(cible, width, time)
         width: width
     }, time);
 }
-
-$(".cache3").on("mouseenter", function(){
-    $(".bandeau3").css("display", "block");
-});
-
-$(".cache3").on("mouseleave", function(){
-    $(".bandeau3").css("display", "none");
-});
