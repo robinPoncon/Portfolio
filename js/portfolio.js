@@ -13,18 +13,18 @@ $(".langages").hover(function () {
 
 $(".blocFormation1").hover(function(){
     $(".barreHorizon1").animate({
-        width: "119px"
+        width: "50px"
     }, 2000);
     $(".barreHorizon2").animate({
-        width: "119px"
+        width: "50px"
     }, 2000);
 });
 $(".blocFormation2").hover(function(){
     $(".barreHorizon3").animate({
-        width: "119px"
+        width: "50px"
     }, 2000);
     $(".barreHorizon4").animate({
-        width: "119px"
+        width: "50px"
     }, 2000);
 });
 

@@ -10,22 +10,21 @@
               crossorigin="anonymous">
 </head>
 <body>
-    <menu class="d-flex">
-        <div class="mask">
-            <div class="logoRP">
-                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.53 77.48">
-                    <defs><style>.cls-1{fill:#0ee6f2;}</style></defs><path class="cls-1" d="M60.36,72.1H40.55L32.13,53.86H23.37V72.09H5.57V37.74h14.8V18.4H35.08a11.18,11.18,0,0,1,8.11,18.86L48.46,48A21.24,21.24,0,0,0,37.72,8.38H7.06v-3H37.72A24.24,24.24,0,0,1,54.86,46.76a23.83,23.83,0,0,1-5.07,3.89Zm-17.89-3H55.54L39.47,36.51l1-.75.44-.41a8.17,8.17,0,0,0-5.78-14H23.37V50.86H34.05Zm-33.9,0h11.8V40.74H8.57Z"/></svg>
-            </div>
+    <div class="d-flex menu">
+        <div class="logoRP">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.53 77.48">
+                <defs><style>.cls-1{fill:#0ee6f2;}</style></defs><path class="cls-1" d="M60.36,72.1H40.55L32.13,53.86H23.37V72.09H5.57V37.74h14.8V18.4H35.08a11.18,11.18,0,0,1,8.11,18.86L48.46,48A21.24,21.24,0,0,0,37.72,8.38H7.06v-3H37.72A24.24,24.24,0,0,1,54.86,46.76a23.83,23.83,0,0,1-5.07,3.89Zm-17.89-3H55.54L39.47,36.51l1-.75.44-.41a8.17,8.17,0,0,0-5.78-14H23.37V50.86H34.05Zm-33.9,0h11.8V40.74H8.57Z"/></svg>
         </div>
         <ul class="d-flex">
+            <li><a href="#home"><em class="fas fa-home"></em>ACCUEIL</a></li>
             <li><a href="#about">À PROPOS</a></li>
             <li><a href="#skills">COMPÉTENCES</a></li>
             <li><a href="#formation">FORMATION</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
-    </menu>
-
+    </div>
+    <div id="home"></div>
     <section class="titre">
         <div class="blocTitre">
             <h1>Robin Ponçon <br>
@@ -59,7 +58,15 @@
                 depuis très jeune, j'ai décidé de me lancer dans le développement web afin de laisser libre court à ma
                 créativité grâce à la maîtrise du code. J'ai suivi la formation en ligne
                 d'<strong><a href="https://openclassrooms.com/fr">OpenClassrooms</a></strong> qui m'a permit
-                d'apprendre toutes sortes de langages de programmation et ainsi affiner mes compétences.
+                d'apprendre toutes sortes de langages de programmation et ainsi affiner mes compétences.<br>
+                <br>
+                <strong>Un peu plus sur moi :</strong>
+                Je sais que ce n'est pas très courant, mais je voulais que vous en sachiez davantage sur moi ! Que je puisse
+                être identifié autrement qu'avec des lignes de code ! J'adore le sport, en particulier le basket, le volley
+                et le surf ! En s'appellant Robin, on va dire que mon amour aux animaux et à la nature était prédestiné !
+                Mais comme tout bon développeur stéréotypé qui se respecte, j'ai aussi mon côté "Geek" avec mon amour
+                des jeux vidéos et de la culture japonaise. (Saviez-vous que geek veut dire "passionné" mais pas seulement avec
+                l'univers informatique ou les jeux vidéos ! On peut être un Geek de cuisine que je suis aussi !
             </p>
         </div>
     </section>
@@ -225,7 +232,7 @@
             <p class="barreHorizon2"></p>
             <div class="contourBloc2">
                 <h3>Certificat Professionnel de niveau II en cinéma et audiovisuel</h3>
-                <p> <span>Organisme</span> <strong>ARFIS - Formation à Villeurbanne</strong> <br>
+                <p> <span>Organisme</span> <strong>Arfis - Formation à Villeurbanne</strong> <br>
                     <span>Date : </span> <strong>De Septembre 2014 à Juillet 2017</strong></p>
             </div>
         </div>
@@ -240,7 +247,7 @@
             <p class="barreHorizon4"></p>
             <div class="contourBloc2">
                 <h3>BEP Système Electronique Industriel et Domestique</h3>
-                <p> <span>Organisme : </span> <strong>Lycée professionnel Alexandre Bérard - Formation à Ambérieu-en-Bugey</strong> <br>
+                <p> <span>Organisme : </span> <strong>Lycée Professionnel Alexandre Bérard - Formation à Ambérieu-en-Bugey</strong> <br>
                     <span>Date : </span> <strong>De Septembre 2008 à Juillet 2010</strong></p>
             </div>
         </div>
@@ -267,7 +274,7 @@
                         <div class="blocTexte5">
                             <p> Création d'un site web pour le club de basket de Meximieux</p>
                             <p> Technos : Symfony4, Twig, Jquery, POO, HTML5, CSS3</p>
-                            <a href="#">Lien vers le site</a>
+                            <a href="https://test-club.robin-poncon.com/">Lien vers le site</a>
                         </div>
                     </div>
                 </div>
@@ -277,7 +284,7 @@
                         <div class="blocTexte4">
                             <p> Création d'un blog pour un écrivain</p>
                             <p> Technos : PHP, MySQL, Jquery, POO, HTML5, CSS3</p>
-                            <a href="#">Lien vers le site</a>
+                            <a href="https://www.projet4-billet-simple-pour-alaska.robin-poncon.com">Lien vers le site</a>
                         </div>
                     </div>
                 </div>
@@ -288,7 +295,7 @@
                         <div class="blocTexte3">
                             <p> Création d'un site de réservation de vélo</p>
                             <p> Technos : Jquery, POO, HTML5, CSS3</p>
-                            <a href="#">Lien vers le site</a>
+                            <a href="https://projet3-location-velo.robin-poncon.com">Lien vers le site</a>
                         </div>
                     </div>
                 </div>
@@ -299,7 +306,7 @@
                         <div class="blocTexte2">
                             <p> Création d'un site vitrine office de tourisme Strabourg</p>
                             <p> Technos : Wordpress, HTML5, CSS3</p>
-                            <a href="#">Lien vers le site</a>
+                            <a href="https://projet2-wordpress.robin-poncon.com">Lien vers le site</a>
                         </div>
                     </div>
                 </div>
@@ -310,7 +317,7 @@
                         <div class="blocTexte1">
                             <p> Intégration d'une maquette graphique pour un site web</p>
                             <p> Technos : HTML5, CSS3</p>
-                            <a href="#">Lien vers le site</a>
+                            <a href="https://projet1-webagency.robin-poncon.com">Lien vers le site</a>
                         </div>
                     </div>
                 </div>
@@ -341,6 +348,8 @@
             <p><span>Email :</span> poncon.robin@gmail.com</p>
             <a href="mailto:poncon.robin@gmail.com">Envoyer un email</a>
         </div>
+
+        <p class="copyright">© Robin Ponçon - 2020</p>
 
     </section>
     <script src="https://kit.fontawesome.com/40e1f9d6e8.js" crossorigin="anonymous"></script>

@@ -17,12 +17,13 @@ html
 
 .logoRP
 {
-	position: relative;
 	width: 66px;
 	height: 66px;
 	top: 7px;
 	background-color: #012955;
 	border-radius: 33px;
+	margin-left: 40px;
+	position: relative;
 }
 
 .logoRP:hover
@@ -55,7 +56,7 @@ html
 	font-size: 4em;
 }
 
-menu
+.menu
 {
 	justify-content: space-between;
 	position: fixed;
@@ -68,18 +69,19 @@ menu
 	padding-bottom: 15px;
 }
 
-menu ul
+.menu ul
 {
 	margin-right: 20px;
+	font-size: 1em;
 }
 
-menu a
+.menu a
 {
 	text-decoration: none;
 	color: white;
 }
 
-menu a:hover
+.menu a:hover
 {
 	text-decoration: none;
 	color: #0ee6f2;
@@ -90,14 +92,23 @@ menu a:hover
 	transition: 0.5s;
 }
 
-menu li
+.menu li
 {
 	list-style-type: none;
 	margin-top: 25px;
 	margin-right: 30px;
 }
 
+#home
+{
+	position: relative;
+	top: -100px;
+}
 
+.fas.fa-home
+{
+	margin-right: 10px;
+}
 
 
 										/* Titre + slider */
@@ -890,4 +901,101 @@ h1
 	background-color: white;
 	text-decoration: none;
 	color: #012955;
+}
+
+.copyright
+{
+	color: #0ee6f2;
+	position: relative;
+	top: 80px;
+	text-align: center;
+}
+
+																/* RESPONSIVE !!! */
+
+										/* Responsive TABLETTE */
+
+@media all and (max-width: 992px)
+{
+	.menu ul
+	{
+		font-size: 0.7em;
+	}
+	
+	.presentation
+	{
+		flex-direction: column;
+	}
+	
+	.presentation img
+	{
+		margin: auto;
+	}
+	
+	.textAbout
+	{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.barre1, .barre2
+	{
+		margin-top: -1px;
+		width: 6px;
+		height: 100px;
+	}
+	
+	.savoirs
+	{
+		flex-direction: column;
+	}
+	
+	.savoirF, .savoirE
+	{
+		width: 90%;
+		margin: auto;
+	}
+	
+	.savoirE ul
+	{
+		position: relative;
+		left: 50%;
+		margin-left: -122px;
+	}
+	
+	.blocLangage h3
+	{
+		width: 37%;
+	}
+	
+	.barre3
+	{
+		width: 25px;
+	}
+	
+	.contourBloc1, .contourBloc2
+	{
+		width: 40%;
+	}
+	
+	.contourBloc2
+	{
+		height: 400px;
+	}
+	
+	.projet1, .projet2, .projet3, .projet4, .projet5
+	{
+		width: 80%;
+	}
+}
+
+
+
+
+
+										/* Responsive MOBILE */
+
+@media all and (max-width: 768px)
+{
+
 }
