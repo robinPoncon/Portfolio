@@ -15,13 +15,18 @@
             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.53 77.48">
                 <defs><style>.cls-1{fill:#0ee6f2;}</style></defs><path class="cls-1" d="M60.36,72.1H40.55L32.13,53.86H23.37V72.09H5.57V37.74h14.8V18.4H35.08a11.18,11.18,0,0,1,8.11,18.86L48.46,48A21.24,21.24,0,0,0,37.72,8.38H7.06v-3H37.72A24.24,24.24,0,0,1,54.86,46.76a23.83,23.83,0,0,1-5.07,3.89Zm-17.89-3H55.54L39.47,36.51l1-.75.44-.41a8.17,8.17,0,0,0-5.78-14H23.37V50.86H34.05Zm-33.9,0h11.8V40.74H8.57Z"/></svg>
         </div>
-        <ul class="d-flex">
-            <li><a href="#home"><em class="fas fa-home"></em>ACCUEIL</a></li>
-            <li><a href="#about">À PROPOS</a></li>
-            <li><a href="#skills">COMPÉTENCES</a></li>
-            <li><a href="#formation">FORMATION</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+        <div class="hamburger">
+            <p class="tiret1"></p>
+            <p class="tiret2"></p>
+            <p class="tiret3"></p>
+        </div>
+        <ul>
+            <li class="partie1"><a href="#home"><em class="fas fa-home"></em>ACCUEIL</a></li>
+            <li class="partie1"><a href="#about">À PROPOS</a></li>
+            <li class="partie1"><a href="#skills">COMPÉTENCES</a></li>
+            <li class="partie2"><a href="#formation">FORMATION</a></li>
+            <li class="partie2"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="partie2"><a href="#contact">CONTACT</a></li>
         </ul>
     </div>
     <div id="home"></div>

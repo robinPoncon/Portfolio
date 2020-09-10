@@ -71,8 +71,10 @@ html
 
 .menu ul
 {
+	display: flex;
 	margin-right: 20px;
 	font-size: 1em;
+	position: relative;
 }
 
 .menu a
@@ -920,6 +922,7 @@ h1
 	.menu ul
 	{
 		font-size: 0.7em;
+		margin-top: 7px;
 	}
 	
 	.presentation
@@ -997,5 +1000,134 @@ h1
 
 @media all and (max-width: 768px)
 {
-
+	.menu
+	{
+		background: #012955;
+		justify-content: space-around;
+	}
+	
+	.hamburger
+	{
+		position: relative;
+		top: 30px;
+		cursor: pointer;
+	}
+	
+	.tiret1, .tiret2, .tiret3
+	{
+		width: 40px;
+		height: 4px;
+		background-color: #0ee6f2;
+		margin-top: -6px;
+		border-radius: 5px;
+	}
+	
+	.menu ul
+	{
+		display: none;
+	}
+	
+	.menu li
+	{
+		margin-right: auto;
+		margin-top: 0;
+	}
+	
+	.logoRP
+	{
+		margin-left: 0;
+	}
+	.partie1, .partie2
+	{
+		position: absolute;
+	}
+	
+	.partie1
+	{
+		left: 50%;
+		top: -63px;
+	}
+	
+	.partie2
+	{
+		left: 50%;
+		top: -20px;
+	}
+	
+	.menu .partie1:nth-child(1)
+	{
+		margin-left: -138px;
+	}
+	
+	.menu .partie1:nth-child(2)
+	{
+		margin-left: -20px;
+	}
+	
+	.menu .partie1:nth-child(3)
+	{
+		margin-left: 70px;
+	}
+	
+	.menu .partie2:nth-child(4)
+	{
+		margin-left: -135px !important;
+	}
+	
+	.menu .partie2:nth-child(5)
+	{
+		margin-left: -23px;
+	}
+	
+	.menu .partie2:nth-child(6)
+	{
+		margin-left: 84px;
+	}
+	
+	.menu a:hover
+	{
+		border-bottom: 2px #0ee6f2 solid;
+	}
+	
+	.blocTitre
+	{
+		top: 140px;
+		width: 300px;
+		height: 300px;
+	}
+	
+	h1
+	{
+		font-size: 1.8em !important;
+		margin-top: 22% !important;
+	}
+	
+	h2
+	{
+		width: 80% !important;
+		font-size: 1.3em !important;
+	}
+	
+	h2 em
+	{
+		font-size: 0.8em !important;
+		margin-right: 5px !important;
+		margin-top: 5px !important;
+	}
+	
+	.designG .boule, .designG .boule2
+	{
+		margin-left: -18px;
+	}
+	
+	.designD .boule, .designD .boule2
+	{
+		margin-right: -18px;
+	}
+	
+	
+	.savoirE ul
+	{
+		margin-left: -140px;
+	}
 }
