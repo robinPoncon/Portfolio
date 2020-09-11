@@ -20,6 +20,10 @@
             <p class="tiret2"></p>
             <p class="tiret3"></p>
         </div>
+        <div class="closeHamburger">
+            <p class="croix1"></p>
+            <p class="croix2"></p>
+        </div>
         <ul>
             <li class="partie1"><a href="#home"><em class="fas fa-home"></em>ACCUEIL</a></li>
             <li class="partie1"><a href="#about">À PROPOS</a></li>
@@ -116,7 +120,7 @@
         </div>
 
         <div class="langages">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center langagePourcent">
                 <div class="d-flex blocLangage">
                     <h3>HTML5</h3>
                     <p class="barre3"></p>
@@ -135,7 +139,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center langagePourcent">
                 <div class="d-flex blocLangage">
                     <h3>BOOTSTRAP</h3>
                     <p class="barre3"></p>
@@ -154,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center langagePourcent">
                 <div class="d-flex blocLangage">
                     <h3>JQUERY</h3>
                     <p class="barre3"></p>
@@ -173,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center langagePourcent">
                 <div class="d-flex blocLangage">
                     <h3>MYSQL</h3>
                     <p class="barre3"></p>
@@ -192,7 +196,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center langagePourcent">
                 <div class="d-flex blocLangage">
                     <h3>TWIG</h3>
                     <p class="barre3"></p>
@@ -346,7 +350,7 @@
         <div class="d-flex justify-content-center contactIcons">
             <a href="https://github.com/robinPoncon"><em class="fab fa-github"></em></a>
             <a href="https://www.linkedin.com/in/robin-ponçon-2b091b135"><em class="fab fa-linkedin"></em></a>
-            <a class="CV" href="img/CV/CV_2020_Robin-Ponçon.pdf" download>CV</a>
+            <a class="CV" href="img/CV/CV_Robin_Ponçon_2020_Dev-Web-Junior.pdf" download>CV</a>
         </div>
         <div class="blocContact">
             <p><span>Téléphone :</span> 06 20 17 27 19</p>

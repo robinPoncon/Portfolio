@@ -34,6 +34,7 @@ if ($(window).width() <= 992)
             width: "50px"
         }, 2000);
     });
+
     $(".blocFormation2").hover(function(){
         $(".barreHorizon3").animate({
             width: "50px"
@@ -64,6 +65,30 @@ else
     });
 }
 
+if ($(window).width() <= 768)
+{
+    $(".partie1, .partie2").click(function(){
+        $(".menu").css("height", "auto");
+        $(".menu ul").css("display", "none");
+        $(".hamburger").css("display", "block");
+        $(".closeHamburger").css("display", "none");
+    });
+}
+
+
+
+
 $(".hamburger").click(function(){
     $(".menu ul").css("display", "flex");
+    $(this).css("display", "none");
+    $(".closeHamburger").css("display", "block");
+    $(".menu").css("height", "180px");
 });
+
+$(".closeHamburger").click(function(){
+    $(".menu ul").css("display", "none");
+    $(this).css("display", "none");
+    $(".hamburger").css("display", "block");
+    $(".menu").css("height", "auto");
+});
+

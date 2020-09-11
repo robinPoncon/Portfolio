@@ -1013,6 +1013,35 @@ h1
 		cursor: pointer;
 	}
 	
+	.closeHamburger
+	{
+		position: relative;
+		top: 37px;
+		cursor: pointer;
+		display: none;
+	}
+	
+	.croix1
+	{
+		width: 40px;
+		height: 4px;
+		background-color: #0ee6f2;
+		border-radius: 5px;
+		transform: rotate(45deg);
+		position: relative;
+	}
+	
+	.croix2
+	{
+		width: 40px;
+		height: 4px;
+		top: -20px;
+		background-color: #0ee6f2;
+		border-radius: 5px;
+		transform: rotate(-45deg);
+		position: relative;
+	}
+	
 	.tiret1, .tiret2, .tiret3
 	{
 		width: 40px;
@@ -1025,12 +1054,19 @@ h1
 	.menu ul
 	{
 		display: none;
+		position: absolute;
+		top: 145px;
 	}
 	
 	.menu li
 	{
 		margin-right: auto;
 		margin-top: 0;
+	}
+	
+	.menu li:nth-child(2)
+	{
+		width: 58px;
 	}
 	
 	.logoRP
@@ -1091,15 +1127,16 @@ h1
 	
 	.blocTitre
 	{
-		top: 140px;
-		width: 300px;
-		height: 300px;
+		top: 85px;
+		width: 280px;
+		height: 280px;
+		border-radius: 140px;
 	}
 	
 	h1
 	{
 		font-size: 1.8em !important;
-		margin-top: 22% !important;
+		margin-top: 18% !important;
 	}
 	
 	h2
@@ -1118,16 +1155,141 @@ h1
 	.designG .boule, .designG .boule2
 	{
 		margin-left: -18px;
+		margin-top: -5px;
+	}
+	
+	.designG .trait1, .designD .trait2, .designG .trait3, .designD .trait4
+	{
+		margin-top: 3px;
 	}
 	
 	.designD .boule, .designD .boule2
 	{
 		margin-right: -18px;
+		margin-top: -5px;
 	}
 	
+	.savoirE, .savoirF
+	{
+		width: 100%;
+	}
 	
 	.savoirE ul
 	{
-		margin-left: -140px;
+		margin-left: 0;
+		position: initial;
+		text-align: center;
+	}
+	
+	.textAbout
+	{
+		width: 100%;
+		padding: 20px;
+	}
+	
+	.savoirs ul
+	{
+		padding: 20px;
+	}
+	
+	.langages .langagePourcent
+	{
+		flex-direction: column;
+	}
+	
+	.blocLangage
+	{
+		width: 100%;
+	}
+	
+	.blocLangage h3
+	{
+		width: 50%;
+	}
+	
+	.barreHorizon1, .barreHorizon2, .barreHorizon3, .barreHorizon4, .barreVerticale, .barreVerticale2
+	{
+		display: none;
+	}
+	
+	.blocFormation1, .blocFormation2
+	{
+		flex-direction: column;
+	}
+	
+	.contourBloc1
+	{
+		width: 90%;
+		margin: auto;
+		margin-top: 70px;
+		height: auto;
+	}
+	
+	.contourBloc2
+	{
+		width: 90%;
+		margin: auto;
+		margin-top: 50px;
+		height: auto;
+	}
+	
+	.contourBloc1 p, .contourBloc2 p
+	{
+		text-align: center;
+	}
+	
+	#formation .titreChapitre
+	{
+		padding-bottom: 0;
+	}
+	
+	.cache1, .cache2, .cache3, .cache4, .cache5
+	{
+		width: 280px;
+		height: 220px;
+	}
+	
+	.project
+	{
+		justify-content: normal;
+	}
+	
+	.project img
+	{
+		width: 280px;
+		height: 220px;
+	}
+	
+	.blocTexte1, .blocTexte2, .blocTexte3, .blocTexte4, .blocTexte5
+	{
+		width: 270px;
+		height: 210px;
+		margin-left: -135px;
+	}
+	
+	.projet1, .projet2, .projet3, .projet4, .projet5
+	{
+		width: 100%;
+	}
+	
+	.blocTexte1 p:nth-child(1), .blocTexte2 p:nth-child(1), .blocTexte3 p:nth-child(1), .blocTexte4 p:nth-child(1),
+	.blocTexte5 p:nth-child(1), .blocTexte1 a, .blocTexte2 a, .blocTexte3 a, .blocTexte4 a, .blocTexte5 a
+	{
+		margin-top: 10px;
+	}
+	
+	.project a:hover
+	{
+		margin-top: 10px;
+	}
+	
+	.blocContact
+	{
+		width: 280px;
+	}
+	
+	.contactIcons em
+	{
+		margin-right: 45px;
 	}
 }
