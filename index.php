@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="icon" href="img/logos/logo-title.png">
 	<title>Portfolio Robin Ponçon</title>
     <meta name="viewport" content="width=device-width"/>
     <meta charset="utf-8"/>
@@ -70,12 +71,12 @@
                 d'apprendre toutes sortes de langages de programmation et ainsi affiner mes compétences.<br>
                 <br>
                 <strong>Un peu plus sur moi :</strong>
-                Je sais que ce n'est pas très courant, mais je voulais que vous en sachiez davantage sur moi ! Que je puisse
+                Je sais que ce n'est pas très courant, mais je voulais que vous en sachiez davantage sur moi, que je puisse
                 être identifié autrement qu'avec des lignes de code ! J'adore le sport, en particulier le basket, le volley
-                et le surf ! En s'appellant Robin, on va dire que mon amour aux animaux et à la nature était prédestiné !
+                et le surf. En s'appellant Robin, on va dire que mon amour aux animaux et à la nature était prédestiné !
                 Mais comme tout bon développeur stéréotypé qui se respecte, j'ai aussi mon côté "Geek" avec mon amour
-                des jeux vidéos et de la culture japonaise. (Saviez-vous que geek veut dire "passionné" mais pas seulement avec
-                l'univers informatique ou les jeux vidéos ! On peut être un Geek de cuisine que je suis aussi !
+                des jeux vidéos et de la culture japonaise. (Saviez-vous que le mot geek veut dire "passionné" ?) mais pas seulement avec
+                l'univers informatique ou les jeux vidéos. On peut être un Geek de cuisine que je suis aussi !
             </p>
         </div>
     </section>
@@ -98,9 +99,10 @@
                 <ul>
                     <li>- J'ai de bonnes connaissances sur les concepts de programmation </li>
                     <li>- Je sais comprendre les attentes du client</li>
-                    <li>- Je sais solutionner les problèmes rencontrés (de son origine à sa résolution)</li>
                     <li>- Je sais et j'adore me montrer créatif et imaginatif sur un projet</li>
                     <li>- Je sais concevoir et développer un site internet de son idée à sa mise en ligne</li>
+                    <li>- Je sais solutionner les problèmes rencontrés (de son origine à sa résolution)</li>
+                    <li>- Je sais rendre un site responsive et adaptable sur tablette et mobile</li>
                     <li>- Je sais m'auto-former pour faire évoluer mon domaine de compétence</li>
                 </ul>
             </div>
@@ -115,6 +117,7 @@
                     <li>- Je suis curieux</li>
                     <li>- Je suis autonome</li>
                     <li>- Je sais travailler en équipe</li>
+                    <li>- J'ai une bonne capacité d'adaptation</li>
                 </ul>
             </div>
         </div>
@@ -350,13 +353,63 @@
         <div class="d-flex justify-content-center contactIcons">
             <a href="https://github.com/robinPoncon"><em class="fab fa-github"></em></a>
             <a href="https://www.linkedin.com/in/robin-ponçon-2b091b135"><em class="fab fa-linkedin"></em></a>
-            <a class="CV" href="img/CV/CV_Robin_Ponçon_2020_Dev-Web-Junior.pdf" download>CV</a>
+            <a class="CV" href="img/CV/CV_Robin_Poncon_2020.pdf" download>CV</a>
         </div>
         <div class="blocContact">
-            <p><span>Téléphone :</span> 06 20 17 27 19</p>
-            <p><span>Email :</span> poncon.robin@gmail.com</p>
-            <a href="mailto:poncon.robin@gmail.com">Envoyer un email</a>
+            <form id="contactForm" method="post">
+                <p class="d-flex form-group">
+                    <label class="form-control" for="nom">Nom</label>
+                    <input class="form-control" id="nom" type="text" name="nom" placeholder="Votre nom" required>
+                </p>
+
+                <p class="d-flex form-group">
+                    <label class="form-control" for="prenom">Prénom</label>
+                    <input class="form-control" id="prenom" type="text" placeholder="Votre prénom" name="prenom" required>
+                </p>
+
+                <p class="d-flex form-group">
+                    <label class="form-control" for="objet">Sujet</label>
+                    <input class="form-control" id="objet" type="text" name="sujet" placeholder="Sujet du message" required>
+                </p>
+
+                <p class="d-flex form-group">
+                    <label class="form-control" for="email">Email</label>
+                    <input class="form-control" id="email" type="email" name="email" placeholder="Votre email" required>
+                </p>
+
+                <p class="d-flex form-group">
+                    <label class="form-control" for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" placeholder="Votre message" required></textarea>
+                </p>
+
+                <input class="form-control submit" type="submit" value="Envoyer" name="sendMessage">
+            </form>
         </div>
+
+        <?php
+        if(isset($_POST['sendMessage'])) {
+            $entete = 'MIME-Version: 1.0' . "\r\n";
+            $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+            $entete .= 'From: ' . $_POST['email'] . "\r\n";
+
+            $message = '<h1>Message envoyé depuis la page Contact de portfolio.robin-poncon.com</h1>
+                    <p><b>Nom : </b>' . $_POST['prenom'] . " " . $_POST['nom'] . '<br>
+                    <b> Sujet : </b>' . $_POST['sujet'] . '<br>
+                    <b>Email : </b>' . $_POST['email'] . '<br>
+                    <b>Message : </b>' . $_POST['message'] . '</p>';
+
+            $sujet = $_POST["sujet"];
+
+            $retour = mail('poncon.robin@gmail.com', $sujet, $message, $entete);
+            if($retour) {
+                echo '<p class="success">Merci ! Votre message a bien été envoyé.</p>';
+            }
+            else
+            {
+                echo "<p class='success'> Erreur ! Votre message n'a pas été envoyé ! </p>";
+            }
+        }
+        ?>
 
         <p class="copyright">© Robin Ponçon - 2020</p>
 
