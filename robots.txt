@@ -1,0 +1,3 @@
+Sitemap: https://portfolio.robin-poncon.com/sitemap.xml
+User-agent: *
+Disallow:

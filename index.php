@@ -2,10 +2,29 @@
 <html lang="fr">
 <head>
     <link rel="icon" href="img/logos/logo-title.png">
-	<title>Portfolio Robin Ponçon</title>
+	<title>Portfolio Robin Ponçon - Développeur Web Junior</title>
     <meta name="viewport" content="width=device-width"/>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="css/portfolio.css"/>
+    <meta name="description" content="Bienvenue sur mon site CV et portfolio ! Je m'appelle Robin Ponçon et je suis
+    développeur web junior. Retrouvez moi aussi sur Linkedin et Github !">
+    <meta name="google-site-verification" content="aFGG7JXRIxGDTQl_z5QYO81kpTFjE6qlHQNm3iOJmXI" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@PortfolioRobinPonçon" />
+    <meta name="twitter:title" content="Portfolio Développeur Web Junior - Robin Ponçon" />
+    <meta name="twitter:description" content="Bienvenue sur mon site CV et portfolio ! Je m'appelle Robin Ponçon et je suis
+    développeur web junior. Retrouvez moi aussi sur Linkedin et Github !" />
+    <meta name="twitter:image" content="img/logos/logo-title.png" />
+
+    <!-- Open Graph Facebook -->
+    <meta property="og:url" content="https://portfolio.robin-poncon.com" />
+    <meta property="og:type" content="portfolio" />
+    <meta property="og:title" content="Portfolio Développeur Web Junior - Robin Ponçon" />
+    <meta property="og:description" content="Bienvenue sur mon site CV et portfolio ! Je m'appelle Robin Ponçon et je suis
+    développeur web junior. Retrouvez moi aussi sur Linkedin et Github !" />
+    <meta property="og:image" content="img/logos/logo-title.png" />
+
+    <link rel="stylesheet" href="css/portfolio-min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
               integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
               crossorigin="anonymous">
@@ -99,8 +118,10 @@
                 <ul>
                     <li>- J'ai de bonnes connaissances sur les concepts de programmation </li>
                     <li>- Je sais comprendre les attentes du client</li>
+                    <li>- Je sais intégrer une maquette graphique</li>
                     <li>- Je sais et j'adore me montrer créatif et imaginatif sur un projet</li>
                     <li>- Je sais concevoir et développer un site internet de son idée à sa mise en ligne</li>
+                    <li>- Je sais sécuriser, organiser et manipuler les données</li>
                     <li>- Je sais solutionner les problèmes rencontrés (de son origine à sa résolution)</li>
                     <li>- Je sais rendre un site responsive et adaptable sur tablette et mobile</li>
                     <li>- Je sais m'auto-former pour faire évoluer mon domaine de compétence</li>
@@ -112,12 +133,14 @@
                 <h3>Savoir-être</h3>
                 <ul>
                     <li>- Je suis organisé </li>
-                    <li>- Je suis ouvert d'esprit </li>
-                    <li>- Je suis respectueux</li>
+                    <li>- Je suis ponctuel </li>
                     <li>- Je suis curieux</li>
                     <li>- Je suis autonome</li>
+                    <li>- Je suis ouvert d'esprit </li>
+                    <li>- Je suis respectueux</li>
                     <li>- Je sais travailler en équipe</li>
-                    <li>- J'ai une bonne capacité d'adaptation</li>
+                    <li>- Je suis très persévérant </li>
+                    <li>- J'ai une grande capacité d'adaptation</li>
                 </ul>
             </div>
         </div>
@@ -292,7 +315,7 @@
                 </div>
                 <div class="projet4">
                     <div class="cache4">
-                        <img src="img/photos/projet4.png" alt="Lien vers projet 5 club de basket">
+                        <img src="img/photos/projet4.png" alt="Lien vers projet 4 création d'un blog en php">
                         <div class="blocTexte4">
                             <p> Création d'un blog pour un écrivain</p>
                             <p> Technos : PHP, MySQL, Jquery, POO, HTML5, CSS3</p>
@@ -303,7 +326,7 @@
 
                 <div class="projet3">
                     <div class="cache3">
-                        <img src="img/photos/projet3.png" alt="Lien vers projet 5 club de basket">
+                        <img src="img/photos/projet3.png" alt="Lien vers projet 3 création d'un site de réservation de vélo">
                         <div class="blocTexte3">
                             <p> Création d'un site de réservation de vélo</p>
                             <p> Technos : Jquery, POO, HTML5, CSS3</p>
@@ -314,7 +337,7 @@
 
                 <div class="projet2">
                     <div class="cache2">
-                        <img src="img/photos/projet2.png" alt="Lien vers projet 5 club de basket">
+                        <img src="img/photos/projet2.png" alt="Lien vers projet 2 création d'un site vitrine">
                         <div class="blocTexte2">
                             <p> Création d'un site vitrine office de tourisme Strabourg</p>
                             <p> Technos : Wordpress, HTML5, CSS3</p>
@@ -325,7 +348,7 @@
 
                 <div class="projet1">
                     <div class="cache1">
-                        <img src="img/photos/projet1.png" alt="Lien vers projet 5 club de basket">
+                        <img src="img/photos/projet1.png" alt="Lien vers projet 1 intégration d'une maquette graphique">
                         <div class="blocTexte1">
                             <p> Intégration d'une maquette graphique pour un site web</p>
                             <p> Technos : HTML5, CSS3</p>
@@ -353,7 +376,7 @@
         <div class="d-flex justify-content-center contactIcons">
             <a href="https://github.com/robinPoncon"><em class="fab fa-github"></em></a>
             <a href="https://www.linkedin.com/in/robin-ponçon-2b091b135"><em class="fab fa-linkedin"></em></a>
-            <a class="CV" href="img/CV/CV_Robin_Poncon_2020.pdf" download>CV</a>
+            <a class="CV" href="img/CV/CV-Robin-Poncon-2020.pdf" download>CV</a>
         </div>
         <div class="blocContact">
             <form id="contactForm" method="post">
@@ -416,6 +439,22 @@
     </section>
     <script src="https://kit.fontawesome.com/40e1f9d6e8.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/portfolio.js"></script>
+    <script src="js/portfolio-min.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Robin Ponçon",
+            "url": "https://portfolio.robin-poncon.com",
+            "familyName": "ponçon",
+            "givenName": "robin",
+            "worksFor": "https://portfolio.robin-poncon.com",
+            "jobTitle": "Développeur Web Junior",
+            "alumniOf": "http://OpenClassrooms",
+            "image": "https://portfolio.robin-poncon.com/img/photos/profil.jpg",
+            "gender": "http://schema.org/Male",
+            "sameAs": ["https://www.linkedin.com/in/robin-pon%C3%A7on-2b091b135","https://github.com/robinPoncon"]
+        }
+    </script>
 </body>
 </html>
