@@ -319,7 +319,7 @@
                         <div class="blocTexte4">
                             <p> Création d'un blog pour un écrivain</p>
                             <p> Technos : PHP, MySQL, Jquery, POO, HTML5, CSS3</p>
-                            <a href="https://www.projet4-billet-simple-pour-alaska.robin-poncon.com">Lien vers le site</a>
+                            <a href="https://projet4-billet-simple-pour-alaska.robin-poncon.com">Lien vers le site</a>
                         </div>
                     </div>
                 </div>
